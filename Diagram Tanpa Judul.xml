@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T01:30:07.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.7" etag="9EdXM_AmhMcvO4zSlKJJ" type="github"><diagram id="wT8FliJklnqw2tfQQiaa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-20T01:37:12.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="Kf0_TZtdW-9Pw7Sd_iIK" version="14.9.7" type="github">
+  <diagram id="wT8FliJklnqw2tfQQiaa" name="CN110795919A">
+    <mxGraphModel dx="442" dy="242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S5tZgaGpsGiYBaN-YnvV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S5tZgaGpsGiYBaN-YnvV-1" target="S5tZgaGpsGiYBaN-YnvV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5tZgaGpsGiYBaN-YnvV-1" value="在包括有至少一个表格的PDF文档中，提取与至少一个表格的内容对应的结构化数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="50" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S5tZgaGpsGiYBaN-YnvV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S5tZgaGpsGiYBaN-YnvV-2" target="S5tZgaGpsGiYBaN-YnvV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5tZgaGpsGiYBaN-YnvV-2" value="将至少一个表格的结构化数据分别与待抽取表格内容对应的标注数据集进行匹配，确定与标注数据集匹配的目标表格" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="160" width="136" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S5tZgaGpsGiYBaN-YnvV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S5tZgaGpsGiYBaN-YnvV-3" target="S5tZgaGpsGiYBaN-YnvV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S5tZgaGpsGiYBaN-YnvV-3" value="在目标表格中，识别出与标注数据集匹配的目标字段单元格集合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="290" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S5tZgaGpsGiYBaN-YnvV-4" value="将目标表格中的目标字段单元格集合中的内容，写入至可编辑文档中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="400" width="136" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
